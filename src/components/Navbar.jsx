@@ -9,24 +9,25 @@ export default function NavBar() {
 
   return (
     <nav>
-      <ul className="flex gap-5 items-center text-sm font-mono">
+      <ul className="flex gap-5 items-center text-sm lg:text-md font-mono">
         <li>
-          <a className="items-center lg:flex hidden gap-1 hover:text-blue-300 transition" href="#about">
+          <a className="items-center lg:flex hidden gap-1 hover:scale-110 transition" href="#about">
             <UserIcon className="w-4 h-4" />Sobre mí
           </a>
+        
         </li>
         <li>
-          <a className="items-center lg:flex hidden gap-1 hover:text-blue-300 transition" href="#projects">
+          <a className="items-center lg:flex hidden gap-1 hover:scale-110 transition" href="#projects">
             <FolderOpenDotIcon className="w-4 h-4" />Proyectos
           </a>
         </li>
         <li>
-          <a className="items-center lg:flex hidden gap-1 hover:text-blue-300 transition" href="#skills">
+          <a className="items-center lg:flex hidden gap-1 hover:scale-110 transition" href="#skills">
             <CodeIcon className="w-4 h-4" />Habilidades
           </a>
         </li>
         <li>
-          <a className="items-center lg:flex hidden gap-1 hover:text-blue-300 transition" href="#contact">
+          <a className="items-center lg:flex hidden gap-1 hover:scale-110 transition" href="#contact">
             <MailOpenIcon className="w-4 h-4" />Contacto
           </a>
         </li>

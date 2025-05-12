@@ -1,11 +1,11 @@
 "use client"
-import { InstagramIcon, LinkedinIcon, GithubIcon } from "lucide-react";
+import { InstagramIcon, LinkedinIcon, GithubIcon, DownloadIcon,ViewIcon } from "lucide-react";
 import { TypeAnimation } from "react-type-animation"
 import Image from "next/image"
 
 export default function About() {
     return (
-        <div id="about" className="w-full px-20 min-h-screen  lg:flex lg:gap-8 lg:items-center">
+        <div id="about" className="w-full min-h-screen  lg:flex lg:gap-8 lg:items-center">
             <div className="flex gap-4 w-full lg:max-w-[280px]">
                 <div>
                     <ul className="flex flex-col gap-5 mt-3">
@@ -41,7 +41,7 @@ export default function About() {
                         </li>
                     </ul>
                 </div>
-                <div className="w-full lg:max-w-[230px] flex justify-center items-center">
+                <div className="w-full lg:max-w-[240px] flex justify-center items-center">
                     <TypeAnimation className="font-bold md:text-2xl lg:text-3xl text-xl"
                         sequence={[
                             "Hola soy Adriann",
@@ -78,6 +78,15 @@ export default function About() {
                             para seguir creciendo como desarrollador, aportar en equipos reales de
                             trabajo y enfrentar nuevos desafíos en el mundo del desarrollo web.
                         </p>
+                        <div className="mt-4 flex lg:flex-row flex-col items-center gap-5">
+                            <a href="#projects" className="border border-white cursor-pointer hover:scale-110 transition flex items-center gap-2 text-white px-4 py-2 rounded">
+                               <ViewIcon className="w-4 h-4" /> Ver Proyectos
+                            </a>
+                            <button className="border border-white cursor-pointer hover:scale-110 transition flex items-center gap-2 text-white px-4 py-2 rounded">
+                               <DownloadIcon className="w-4 h-4" /> Descargar CV
+                            </button>
+
+                        </div>
                     </div>
                 </div>
             </div>

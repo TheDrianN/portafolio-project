@@ -43,7 +43,7 @@ export default function Skills() {
       },
     ];
     return (
-      <div id="skills" className="w-full px-20 sm:px-20 py-4">
+      <div id="skills" className="w-full py-4 mb-5">
         <h5 className="font-bold text-lg mb-4">~/Habilidades/</h5>
         <div className="w-full overflow-hidden">
           <ul className="flex gap-20 justify-center text-sm font-mono animate-infinite-scroll">

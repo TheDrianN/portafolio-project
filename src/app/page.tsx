@@ -6,7 +6,7 @@ import Skills from "../components/Skills";
 
 export default function Home() {
   return (
-    <div>
+    <div className="px-20 lg:px-50">
       <About />
       <Projects />
       <Skills />

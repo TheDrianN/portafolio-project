@@ -21,9 +21,9 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={`${firaCode.variable} antialiased `}>
-        <header className="sticky top-0 z-50 bg-[#171717] w-full flex justify-between items-center px-20 py-4">
+        <header className="sticky top-0 z-50 bg-[#171717] w-full flex justify-between items-center px-20 lg:px-50 py-4">
           <div>
-            <h1 className="font-bold text-xl hover:text-blue-300 transition" >TheDrianN</h1>
+            <h1 className="font-bold text-xl hover:scale-110 transition" >TheDrianN</h1>
           </div>
           <NavBar />
         </header>
