@@ -22,8 +22,8 @@ export default function Projects() {
         </p>
       </div>
 
-      {/* Grid en 2 columnas limpias con botón "Ver detalles" hacia la subruta */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 items-start">
+      {/* Grid en 3 columnas limpias con botón "Ver detalles" hacia la subruta */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 items-stretch">
         {projects.map((project) => (
           <article
             key={project.id}

@@ -170,7 +170,7 @@ export const projects = [
     architectureFlow: [
       {
         layer: "Framework & Core",
-        component: "Next.js & React 19",
+        component: "Next.js & React",
         detail: "Renderizado estático y del servidor optimizado para métricas de Core Web Vitals y tiempos de carga mínimos.",
       },
       {
@@ -199,6 +199,55 @@ export const projects = [
     ],
     github: null,
     demo: "https://sysrest.com/",
+  },
+  {
+    id: "trainly-app",
+    slug: "trainly-app",
+    title: "Trainly — Workout & Fitness Tracker",
+    subtitle: "Registro y seguimiento de entrenamientos de gimnasio",
+    type: "Frontend & Web Application",
+    year: "2026",
+    image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&q=80",
+    description:
+      "Aplicación web moderna y responsive para el registro y seguimiento de entrenamientos de gimnasio, series y progreso físico, desarrollada en el frontend con Next.js (App Router), React, TypeScript y Tailwind CSS.",
+    problem:
+      "Dificultad de los usuarios para registrar series, repeticiones, cargas y rutinas de gimnasio de forma rápida, estructurada y sin fricciones visuales directamente desde el smartphone durante el entrenamiento.",
+    solution:
+      "Diseño y desarrollo de una aplicación web mobile-first con soporte dark mode nativo, flujo de registro instantáneo de series, navegación fluida, notificaciones en tiempo real vía ToastProvider y arquitectura de componentes desacoplada.",
+    architecture:
+      "Next.js (App Router) + React + TypeScript + Tailwind CSS con proveedores de sesión y notificaciones, optimización estática y despliegue continuo en Vercel.",
+    architectureFlow: [
+      {
+        layer: "Framework & UI",
+        component: "Next.js (App Router) & React ",
+        detail: "Renderizado reactivo con Server y Client Components, tipado estricto de datos con TypeScript y estructura modular.",
+      },
+      {
+        layer: "Diseño & Experiencia",
+        component: "Tailwind CSS & Mobile-First Dark UI",
+        detail: "Diseño oscuro de alto contraste optimizado para pantallas móviles, animaciones fluidas y feedback visual interactivo.",
+      },
+      {
+        layer: "Estado & Proveedores",
+        component: "AuthProvider & ToastProvider",
+        detail: "Manejo centralizado de estados de sesión de usuario y sistema de alertas contextuales inmediatas.",
+      },
+    ],
+    highlights: [
+      "Aplicación web moderna y responsive para el registro y seguimiento de entrenamientos de gimnasio.",
+      "Desarrollada en el frontend con Next.js (App Router), React, TypeScript y Tailwind CSS.",
+      "Diseño mobile-first y dark-mode nativo para una experiencia ergonómica en entrenamientos en vivo.",
+      "Despliegue y optimización continua en producción a través de la plataforma Vercel.",
+    ],
+    tools: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vercel",
+    ],
+    github: null,
+    demo: "https://trainly-zeta.vercel.app/",
   },
 ];
 
